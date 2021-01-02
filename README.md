@@ -26,3 +26,5 @@ This VHDL module provide handlig official Nintendo 64 Controller. It pulls 20 ti
 Axis bytes are represented in two's complement system.
 
 This module has been prepared to work with 100 MHz clock. In case of other frequency, values must be changed.
+
+More information can be found here: http://www.qwertymodo.com/hardware-projects/n64/n64-controller
