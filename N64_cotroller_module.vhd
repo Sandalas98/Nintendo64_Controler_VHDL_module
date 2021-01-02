@@ -234,7 +234,7 @@ begin
             elsif present_state = Q9 then
                 N64_CONTROLLER_DATA <= 'Z';
 
-                if clk_counter < (CLKS_PER_BIT - 6) then
+                if clk_counter < (CLKS_PER_BIT - 3) then
                     clk_counter <= clk_counter + 1;
                 else
 
